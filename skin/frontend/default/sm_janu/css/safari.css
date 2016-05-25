@@ -1,0 +1,15 @@
+.container-slider .slider .vpo-wrap .vp .item{
+	margin-left: -4px;
+}
+.container-slider .slider .vpo-wrap .vp .item:first-child{
+	margin-left: 0;
+}
+.container-slider.slider-media .preset01-6 .vpo-wrap .vp .item{
+	margin-left: -4px;
+}
+.container-slider.slider-media .preset01-6 .vpo-wrap .vp .item:first-child{
+	margin-left: 0;
+}
+.yt-footer-top .link-bottom-content{
+	padding-left: 1px;
+}

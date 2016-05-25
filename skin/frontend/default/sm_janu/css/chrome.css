@@ -1,0 +1,49 @@
+.menu-custom1,.menu-custom2{
+	width: 261px !important;
+}
+.menu-custom3{
+	width: 306px !important;
+}
+.wrap-s1 .info .w-p,
+.wrap-s2 .info .w-p,
+.wrap-s3 .info .w-p{
+	min-height: 148px;
+}
+.wrap-s1 .info,
+.wrap-s2 .info,
+.wrap-s3 .info{
+	bottom: 10px;
+}
+.yt-slider .container-slider .slider .vpo-wrap .vp .item .item-wrap .wrap-w-c{
+	text-align: left;
+	padding: 0 35%;
+}
+#yt_main .products-grid .product-image{
+	text-align: left;
+	padding: 0 56px;
+}
+#yt_main .products-grid .product-info .price-from, #yt_main .products-grid .product-info .price-to{
+	float: left;
+	text-align: left;
+	margin-left: 30px;
+}
+.contact-form .input-box > input.input-text{
+	line-height: 20px;
+}
+.yt-header-top .login-quick #mini-login, .yt-header-top .login-quick #mini-password{
+	line-height: 20px;
+	background: #fff !important;
+}
+.container-slider.slider-media .preset01-6 .vpo-wrap .vp .item{
+	width: 98px;
+}
+.slider-media .page-button .control-button .next{
+	right: 3px;
+}
+#btnavi{
+	margin-left: 30px;
+}
+.g1{ max-height: 41px; }
+
+.container-slider .preset01-4 .vpo-wrap .vp .item{ margin: 0;  width: 293px!important;}
+.pages a.previous,.pages a.next{ width: 5px;}

@@ -1,0 +1,8 @@
+
+.sm_quickview_handler {
+	background: url(../images/bg_quickview.png) no-repeat left center;
+	width: 120px;
+	height: 32px;
+	float: left;
+	text-indent: -999em;
+}
