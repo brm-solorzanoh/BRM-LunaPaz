@@ -41,6 +41,8 @@
 }
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body {
+	background-color: #fafafa !important;
+	background-image: url('../images/bg.png');
 	line-height: 1.6;
 	outline: none;
 }
@@ -117,7 +119,8 @@ a, a:focus, a:hover{
 	color: #fff;
 	text-transform: uppercase;
 	float: left;
-	background: #00899D;	
+	background: #005e62;
+    font-family: 'Latohairline' !important;
 	padding: 0 40px;
 }
 /***button***/
@@ -263,6 +266,7 @@ background: url(../images/bg-slideshow.png) no-repeat center center;
 	width: 100%;
 	border-bottom:1px solid #ccc;
 	position: relative;
+	background-color: #fff;
 }
 #yt_header .yt-header-top .janu-clock{
 	float: left;
@@ -452,7 +456,7 @@ background: url(../images/bg-slideshow.png) no-repeat center center;
 #yt_header .yt-header-content{
 	float: left;
 	width: 100%;	
-	background: #00899D;
+	background: #34a9ae;
 }
 #yt_header .logo-janu{
 	margin:0 -15px;
@@ -3776,12 +3780,12 @@ input.input-text.qty{
 	z-index:1;
 }
 .wrap-ex{
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 .wrap-content-bottom{
 	float: left;
 	width: 100%;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	overflow: hidden;
 }
 .wrap-content-bottom .link-bottom-content{
@@ -3889,7 +3893,7 @@ input.input-text.qty{
 .wrap-s2 .info .inner,
 .wrap-s3 .info .inner{
 	position: relative;
-	background: rgba(45,46,48,0.7);
+	background: rgba(52,169,174,0.7);
 	padding-top: 12px;
 	
 }
@@ -3902,7 +3906,7 @@ input.input-text.qty{
 .wrap-s3 .info .style-t1,
 .wrap-s3 .info .style-t2,
 .wrap-s3 .info p{
-	color: #ccc;
+	color: #fff;
 	
 }
 .wrap-s1 .info .w-p,
@@ -3940,7 +3944,7 @@ input.input-text.qty{
 	width: 35px;
 	height: 36px;
 	display: block;
-	background: url(../images/btn-plus-minus.png) #2d2e30 no-repeat 9px 10px;
+	background: url(../images/btn-plus-minus.png) #34a9ae no-repeat 9px 10px;
 	position: absolute;
 	top: -25px;
 	left: 50%;
@@ -3952,7 +3956,7 @@ input.input-text.qty{
 	text-indent: -9999em;
 }
 .wrap-w-m-ac .style-button.minus{
-	background: url(../images/btn-plus-minus.png) #2d2e30 no-repeat 9px -59px;
+	background: url(../images/btn-plus-minus.png) #34a9ae no-repeat 9px -59px;
 }
 .wrap-w-m-ac .style-button:hover{
 	cursor: pointer;

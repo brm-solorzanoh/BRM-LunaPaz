@@ -938,7 +938,7 @@ input.input-text:focus, textarea:focus{
 	}
 	#yt_header .logo-janu > a{
 		width: 100%;
-		background: url("../images/logo.png") no-repeat scroll center center #00899D;
+		background: url("../images/logo.png") no-repeat scroll center center #005e62;
 	}
 	.col-sm-3-none, .col-sm-5-s, .yt-header-content .logo-janu{
 		display: none;
@@ -947,14 +947,14 @@ input.input-text:focus, textarea:focus{
 	.col-xs-12-s {
 		padding: 0;
 		height: 52px;
-		background: #858785;
+		background: #00899D;
 		padding-top: 11px;
 		position: relative;
 	}
 	#yt_header .yt-responsivemenu{
 		width: 32px;
 		height: 30px;
-		background: #9d9f9d;
+		background: #005e62;
 		margin-right: 10px;
 		float: left;
 		padding: 10px;
@@ -989,7 +989,7 @@ input.input-text:focus, textarea:focus{
 	#yt_header .top-search .t-search{
 		width: 32px;
 		height: 30px;
-		background: #9d9f9d;
+		background: #005e62;
 		text-indent: -9999em;
 		display: block;
 	}
@@ -1019,7 +1019,7 @@ input.input-text:focus, textarea:focus{
 		width: 32px;
 	}
 	#yt_header .yt-header-top{
-		background: #232323;
+		background: #fafafa;
 		border: none;
 	}
 	.yt-header-top .header-login{
@@ -1038,7 +1038,7 @@ input.input-text:focus, textarea:focus{
 	.language-switcher{
 		width: 54px !important;
 		border: none;
-		background: #9d9f9d;
+		background: #005e62;
 		height: 30px;
 		padding: 3px 7px 0 7px!important;
 		margin-left: 40px;
@@ -1070,7 +1070,7 @@ input.input-text:focus, textarea:focus{
 	.block-currency{
 		width: 75px;
 		height: 30px;
-		background: #9d9f9d;
+		background: #005e62;
 		padding: 0 !important;
 		border-right: none;
 		margin-left: -28px;
@@ -1114,7 +1114,7 @@ input.input-text:focus, textarea:focus{
 	.mini-cartpro .title-block{
 		width: 32px;
 		height: 30px;
-		background: url(../images/icon-cart-mobile.png) no-repeat center center #9d9f9d !important;
+		background: url(../images/icon-cart-mobile.png) no-repeat center center #005e62 !important;
 	}
 	.mini-cartpro .title-block .empty{
 		text-indent: -9999em;
@@ -1698,7 +1698,7 @@ input.input-text:focus, textarea:focus{
 	left: 220px;
 }
 .yt_ressidebar_screennav #yt_screennav {
-    background: #222;
+    background: #00899D;
     left: 0;
 	top: 0;
     margin: 0;
@@ -1713,12 +1713,13 @@ input.input-text:focus, textarea:focus{
 }
 #yt_screennav ul.siderbar-menu li a {
 	padding: 9px 0 9px 10px;
+	color: #fff;
 	line-height: 100%;
 	display:block;
-	border-bottom: 1px solid #444;
+	border-bottom: 1px solid #005e62;
 }
 #yt_screennav ul.siderbar-menu li a:hover{
-	color: #00899D;
+	color: #005e62;
 }
 /*---------------menu collapse---------*/
 #yt_resmenu_collapse{
