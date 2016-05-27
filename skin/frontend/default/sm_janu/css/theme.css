@@ -77,20 +77,36 @@ a, a:focus, a:hover{
 }
 
 .wrap-lm{
-	background-color: #fff;
+	background-color:transparent;
 	padding-top: 50px;
 	margin-bottom: -10px;
 	display: inline-block;
 }
+
+.wrap-lm #yt_left,
+.wrap-lm #yt_main
+{
+	background-color: #fff;
+}
+
+
 #yt_main #yt_main_left{
 	padding-left: 0;
 }
-#yt_main .std, #yt_main .page-title{ background-color: #fff;}
+#yt_main .std, #yt_main .page-title{ background-color: transparent;}
 #yt_main #yt_main_right,
 .yt-main-left { padding-left:0;}
 #yt_right{ padding-right: 0;}
 .yt-main-right{
 	padding-right: 0;
+}
+
+#yt_main .yt_main_inner>.container{
+	background-color: #fff;
+}
+
+#yt_main .yt_main_inner>.container .row{
+	padding:0.5rem;
 }
 
 .yt-footer-top{
@@ -104,7 +120,7 @@ a, a:focus, a:hover{
 
 }
 .wrap-cate-bc,.cart{
-	background-color: #fff;
+	background-color: transparent;
 }
 /***messages***/
 .messages {
@@ -126,7 +142,7 @@ a, a:focus, a:hover{
 /***button***/
 #yt_wrapper .button{
 	color: #fff;
-	background-color: #858785;
+	background-color: #005e62;
 	line-height: 100%;
 	padding: 10px;
 }
@@ -157,6 +173,11 @@ a, a:focus, a:hover{
 	margin: 0;
 	line-height: 100%;
 }
+
+.a-right button{
+	background-color: #005e62;
+}
+
 body table.data-table {
 	border-collapse: collapse;
 }
@@ -184,7 +205,7 @@ label.required em {
 /*------------------------- css for header --------------------------*/
 .header-slideshow{ 
 position: relative; 
-background: url(../images/bg-slideshow.png) no-repeat center center;
+background: url(../images/bg-slideshow.jpg) no-repeat center center;
 }
 .title-slideshow{
 	text-transform: uppercase;
@@ -1480,9 +1501,10 @@ background: url(../images/bg-slideshow.png) no-repeat center center;
 /*--------------------------------listing content grid-------------------------------*/
 .wrap-cr{	
 	background-color: #FFFFFF;
-    display: inline-block;
-    /* margin: 0 -15px -10px; */
 	margin: 0 0 -10px;
+    display: inline-block;
+    padding-left: 0.5rem
+    padding-right: 0.5rem
     padding-top: 30px;	
 }
 .no-route-page{ margin-top: 50px;}
@@ -1981,6 +2003,7 @@ background: url(../images/bg-slideshow.png) no-repeat center center;
     line-height: 150%;
     padding-top: 30px;
     padding-right: 0;
+    padding-left: 0.5rem;
     background-color: #fff;
 }
 .yt-product-detail .product-name{
@@ -2537,6 +2560,21 @@ background: url(../images/bg-slideshow.png) no-repeat center center;
     padding-bottom: 10px;
 }
 
+.cart form{
+	background: #fff;
+	padding: 0.5rem;
+}
+
+
+.input-box select{
+	width: 100%;
+}
+
+.totals{
+	background-color:#34a9ae;
+	color:#fff;
+}
+
 .checkout-types a{
 	font-size: 77.77%;
 }
@@ -2567,6 +2605,7 @@ background: url(../images/bg-slideshow.png) no-repeat center center;
 }
 #yt_wrapper .checkout-types .btn-checkout{
 	padding: 12px;
+	background-color:#005e62;
 }
 
 #yt_wrapper .cart-collaterals .totals,
@@ -2638,7 +2677,7 @@ background: url(../images/bg-slideshow.png) no-repeat center center;
 	width: 100%;
 }
 #checkoutSteps .step-title{
-	background:#777;
+	background:#34a9ae;
 	color:#fff;
     line-height: 100%;
     padding: 12px 20px;	
